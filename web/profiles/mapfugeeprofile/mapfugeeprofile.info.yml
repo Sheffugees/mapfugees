@@ -45,6 +45,7 @@ dependencies:
   - automated_cron
   - ds
   - ds_extras
+  - address
 
 themes:
   - bartik
