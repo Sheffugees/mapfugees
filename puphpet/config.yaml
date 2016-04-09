@@ -188,7 +188,7 @@ apache:
             servername: mapfugees.local
             serveraliases:
                 - www.awesome.dev
-            docroot: /var/www/mapfugees
+            docroot: /var/www/web
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -204,7 +204,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_kcvyyg3iwfk3:
-                    path: /var/www/mapfugees
+                    path: /var/www/web
                     options:
                         - Indexes
                         - FollowSymlinks
