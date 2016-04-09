@@ -229,6 +229,10 @@ php:
         php:
             - cli
             - intl
+            - dom
+            - gd
+            - SimpleXML
+            - xml
         pear: {  }
         pecl: {  }
     ini:
@@ -354,6 +358,11 @@ mysql:
         mysqlng_sqs5xnk7fwz6:
             user: dbuser
             table: '*.*'
+            privileges:
+                - ALL
+        mysqlng_sqs5xnk7fwz7:
+            user: d8mapfugees
+            table: 'drupal8_mapfugees.*'
             privileges:
                 - ALL
 postgresql:
