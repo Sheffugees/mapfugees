@@ -43,6 +43,8 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  - ds
+  - ds_extras
 
 themes:
   - bartik
