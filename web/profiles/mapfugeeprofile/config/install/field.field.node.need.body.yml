@@ -1,18 +1,16 @@
-uuid: bafa20b4-1945-48c4-9cc8-3c19b89457a9
+uuid: dc09826d-25ff-4f3e-b335-fe60a961f79c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.need
   module:
     - text
-_core:
-  default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
-id: node.page.body
+id: node.need.body
 field_name: body
 entity_type: node
-bundle: page
+bundle: need
 label: Body
 description: ''
 required: false
@@ -20,5 +18,5 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
 field_type: text_with_summary
