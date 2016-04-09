@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '3Jd07PgyLRltsypxSi9gN3wuih-o1Kt2rZK8Hks5lKRX0399wHuArNAOuHSHsJ-4dSld-ecexg';
+$settings['hash_salt'] = 'Y6iQvR2wUXV5yO6XFLm4KNNjKygv_3iqyTlcRana5D1IK4zHS7v_sKAadgzVOh0q0HtilRTDXg';
 
 /**
  * Deployment identifier.
@@ -727,5 +727,5 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['install_profile'] = 'standard';
-$config_directories['sync'] = '../config/sync';
+$settings['install_profile'] = 'mapfugeeprofile';
+$config_directories['sync'] = 'sites/default/files/config_ZGZv9RSJ08xY92QZ4Oz5BV24YZb2mGH-zl6ZwQJV4nG_Esi_Rcuy26mt2wk-u3JHFJsTNkSAyQ/sync';

@@ -14,6 +14,8 @@ web/sites/default/files
 
 # Ignore Puphpet's custom configuration.
 puphpet/config-custom.yaml
+# Because of sharing, Apache sometimes puts its html/ folder here.
+html/
 
 # Ignore local Vagrant configuration
 .vagrant/
