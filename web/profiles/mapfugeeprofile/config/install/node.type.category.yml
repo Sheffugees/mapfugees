@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: 8Jl-PSwCwyU0XeDFgoqlZXgU6Oz2SJJZxkVuxtxXkhw
 name: Category
 type: category
 description: 'Hierarchical collection of other categories, internal resources, external resources etc.'

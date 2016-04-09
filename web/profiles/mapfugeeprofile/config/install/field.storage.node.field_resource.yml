@@ -1,18 +1,15 @@
-uuid: 8c35ce2f-f2a7-424b-b91f-96cc386c843a
+uuid: b7f98561-ea88-4b23-a69d-417a47c4c9e1
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - taxonomy
-_core:
-  default_config_hash: LcsChkOwXsqONyfmYDPHmBgkYa8KF4XI5O--Hu7XTEQ
-id: node.field_tags
-field_name: field_tags
+id: node.field_resource
+field_name: field_resource
 entity_type: node
 type: entity_reference
 settings:
-  target_type: taxonomy_term
+  target_type: node
 module: core
 locked: false
 cardinality: -1

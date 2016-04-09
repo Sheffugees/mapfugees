@@ -11,19 +11,21 @@ dependencies:
     - ds
     - text
     - user
+_core:
+  default_config_hash: tOYk5TdUITiIRSXt7owUrgTOfuBtIXbTBbc5xMRb_8g
 id: node.need.default
 targetEntityType: node
 bundle: need
 mode: default
 content:
   body:
-    weight: 1
+    weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
   field_category:
-    weight: 2
+    weight: 1
     label: above
     settings:
       link: true
@@ -32,7 +34,7 @@ content:
         ds_limit: ''
     type: entity_reference_label
   links:
-    weight: 0
+    weight: 2
     settings: {  }
     third_party_settings: {  }
 hidden:

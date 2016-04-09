@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: DTTTZsL_FYw0CKqEdoFF5XZUhZvn74WyY480W-O_Xjg
+  default_config_hash: GzCxK-569SSnTNU4SQ_LYWb0N_sUex90LjqP2m3Xp8g
 id: node.revision
 label: Revision
 targetEntityType: node

@@ -1,21 +1,18 @@
-uuid: f1b5ec7e-e488-4ab5-be16-dbb0c0a89d5f
+uuid: 7204923d-c150-4cee-9272-3d0f1d4181de
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_category
     - node.type.category
-    - node.type.need
-_core:
-  default_config_hash: hcRHyPLS-jVvMWcsCZyZVwLrhtYfbjF4Qi2qvn1c9Hc
-id: node.need.field_category
+id: node.category.field_category
 field_name: field_category
 entity_type: node
-bundle: need
+bundle: category
 label: Categories
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,18 +1,16 @@
-uuid: f1b5ec7e-e488-4ab5-be16-dbb0c0a89d5f
+uuid: f04497b6-2683-4ea1-8b76-6ebc8a50ad0b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_category
+    - field.storage.node.field_resource
     - node.type.category
-    - node.type.need
-_core:
-  default_config_hash: hcRHyPLS-jVvMWcsCZyZVwLrhtYfbjF4Qi2qvn1c9Hc
-id: node.need.field_category
-field_name: field_category
+    - node.type.resource
+id: node.category.field_resource
+field_name: field_resource
 entity_type: node
-bundle: need
-label: Categories
+bundle: category
+label: Resources
 description: ''
 required: false
 translatable: false
@@ -22,7 +20,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      category: category
+      resource: resource
     sort:
       field: _none
 field_type: entity_reference

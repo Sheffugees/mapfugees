@@ -1,33 +1,59 @@
-uuid: 71dc0d88-cbae-49b6-97d7-64eab5bf4afb
+uuid: 6a966a2b-1b07-4157-82c9-2ed4d2273bef
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.category.body
+    - field.field.node.category.field_category
+    - field.field.node.category.field_icon
+    - field.field.node.category.field_resource
+    - image.style.thumbnail
+    - node.type.category
   module:
+    - image
     - path
     - text
-_core:
-  default_config_hash: ek0EbG27xqlRl7n2RG6TR7gmJWoIfFIHq4JH_sFQYX4
-id: node.page.default
+id: node.category.default
 targetEntityType: node
-bundle: page
+bundle: category
 mode: default
 content:
   body:
-    type: text_textarea_with_summary
     weight: 31
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    type: text_textarea_with_summary
   created:
     type: datetime_timestamp
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_category:
+    weight: 33
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_icon:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_resource:
+    weight: 34
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   path:
     type: path
     weight: 30

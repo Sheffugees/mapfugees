@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: 0__dO9P_fJqnhK8AAsWeYQlvCG5bvWHhb97fsCl8LNM
 name: Resource
 type: resource
 description: 'Specific resource that might solve a need: a geographic location (plus descriptive text) of a service provider; or a large block of narrative text. '

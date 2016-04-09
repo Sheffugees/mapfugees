@@ -7,6 +7,8 @@ dependencies:
     - node.type.need
   module:
     - text
+_core:
+  default_config_hash: d3NBJEKElVFxPguointjyYPtmBP-Wy9LrRKNoMg3REk
 id: node.need.body
 field_name: body
 entity_type: node

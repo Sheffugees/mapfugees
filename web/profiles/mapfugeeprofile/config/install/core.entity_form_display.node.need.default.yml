@@ -12,6 +12,8 @@ dependencies:
     - image
     - path
     - text
+_core:
+  default_config_hash: rk2vzku3jgb3x4kQzUeMuFFdauEjMLWxU3KRQizIO70
 id: node.need.default
 targetEntityType: node
 bundle: need

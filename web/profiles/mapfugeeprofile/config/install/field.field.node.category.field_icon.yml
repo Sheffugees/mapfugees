@@ -1,22 +1,20 @@
-uuid: fcccff55-6071-4d85-be18-3050a00400a8
+uuid: 0372670d-ca6e-449f-b3d9-c3ec279f8c59
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_icon
-    - node.type.need
+    - node.type.category
   module:
     - image
-_core:
-  default_config_hash: kIAbdQYEoEdGPz7Tv202E-X1YDC9gnTq26i23OO4KN4
-id: node.need.field_icon
+id: node.category.field_icon
 field_name: field_icon
 entity_type: node
-bundle: need
+bundle: category
 label: Icon
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -9,8 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: fGNOUb-mzrYyyXuHjLHnGgQBg4bzqVtf-Z30xX_wRLg
 name: Need
-type: need 
+type: need
 description: 'Something that a refugee would say in their own words they need to do.'
 help: ''
 new_revision: false
