@@ -46,6 +46,7 @@ dependencies:
   - ds
   - ds_extras
   - address
+  - default_content
 
 themes:
   - bartik

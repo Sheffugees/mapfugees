@@ -1,0 +1,79 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/mapfugees.local/sites\/default\/files\/2016-04\/scales_1.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "42a0e6bd-943c-4c71-8acc-8f9a1bf2872c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b53a8ac3-6e79-4a57-9519-8adf2bc478ab"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "scales.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "http:\/\/mapfugees.local/sites\/default\/files\/2016-04\/scales_1.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "18757"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1460212025"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1460212034"
+        }
+    ]
+}

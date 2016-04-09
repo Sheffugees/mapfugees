@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/mapfugees.local/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/category"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/uid": [
+            {
+                "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/revision_uid": [
+            {
+                "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/field_resource": [
+            {
+                "href": "http:\/\/mapfugees.local/node\/2?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b4ec41c5-09f9-42f1-9eb6-8b5d4185f889"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "category"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Find a solicitor",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b53a8ac3-6e79-4a57-9519-8adf2bc478ab"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/mapfugees.local/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b53a8ac3-6e79-4a57-9519-8adf2bc478ab"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/category\/field_resource": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/mapfugees.local/node\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/resource"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44f0ea42-ddf8-46ab-9439-9f467e10c2b5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1460213729",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1460213759",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1460213745"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Some possible text about solicitiors.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
