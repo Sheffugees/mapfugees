@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_messages
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_messages
+theme: mapfugeetheme
 region: highlighted
 weight: 0
 provider: null

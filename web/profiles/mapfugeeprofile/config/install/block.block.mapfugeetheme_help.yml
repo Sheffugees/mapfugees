@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - bartik
-id: bartik_help
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_help
+theme: mapfugeetheme
 region: content
 weight: -30
 provider: null

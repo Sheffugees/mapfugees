@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_branding
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_branding
+theme: mapfugeetheme
 region: header
 weight: 0
 provider: null

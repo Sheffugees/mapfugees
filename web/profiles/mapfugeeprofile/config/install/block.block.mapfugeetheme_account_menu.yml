@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_account_menu
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_account_menu
+theme: mapfugeetheme
 region: secondary_menu
 weight: 0
 provider: null

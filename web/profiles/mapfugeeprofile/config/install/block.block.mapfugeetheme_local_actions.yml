@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
-id: bartik_local_actions
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_local_actions
+theme: mapfugeetheme
 region: content
 weight: -20
 provider: null

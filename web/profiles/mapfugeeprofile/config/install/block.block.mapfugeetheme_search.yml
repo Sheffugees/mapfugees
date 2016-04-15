@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - bartik
-id: bartik_search
-theme: bartik
+    - mapfugeetheme
+id: mapfugeetheme_search
+theme: mapfugeetheme
 region: sidebar_first
 weight: -1
 provider: null
