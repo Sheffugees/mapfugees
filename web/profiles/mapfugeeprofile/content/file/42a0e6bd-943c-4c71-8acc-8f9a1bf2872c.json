@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/mapfugees.local/sites\/default\/files\/2016-04\/scales.png"
+            "href": "http:\/\/mapfugees.local/sites\/default\/files\/import\/scales.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -48,7 +48,7 @@
     ],
     "uri": [
         {
-            "value": "http:\/\/mapfugees.local/sites\/default\/files\/2016-04\/scales.png"
+            "value": "http:\/\/mapfugees.local/sites\/default\/files\/import\/scales.png"
         }
     ],
     "filemime": [
