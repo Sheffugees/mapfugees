@@ -49,6 +49,7 @@ dependencies:
   - default_content
   - locale
   - language
+  - file_entity
 
 themes:
   - mapfugeetheme

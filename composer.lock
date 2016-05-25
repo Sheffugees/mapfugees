@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db283d3fd808c32769b9cece92b479e5",
-    "content-hash": "e76578325ca3305823d4652b3241f27e",
+    "hash": "1cf0d9ff3a4d7627990ef0b89f1137a6",
+    "content-hash": "5625d70e4324e912fb2ea8aa976f6d66",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1376,6 +1376,35 @@
                 "php"
             ],
             "time": "2016-01-16 17:51:32"
+        },
+        {
+            "name": "drupal/file_entity",
+            "version": "dev-8.x-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/file_entity",
+                "reference": "29204bc56369d8dfadee35c93d1c0cfdd640843b"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/file": "8.*",
+                "drupal/image": "8.*",
+                "drupal/text": "8.*",
+                "drupal/views": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Extends Drupal file entities to be fieldable and viewable.",
+            "homepage": "https://www.drupal.org/project/file_entity",
+            "time": "2016-05-24 20:25:21"
         },
         {
             "name": "drupal/layout_plugin",
@@ -4727,7 +4756,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/21bebb8ca03eb0f93ec2f3fad61192fb079e2622",
+                "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/4ff4a788d4995ae0d4b45fdcb1b76650e2eec72a",
                 "reference": "21bebb8ca03eb0f93ec2f3fad61192fb079e2622",
                 "shasum": ""
             },
@@ -5794,6 +5823,7 @@
     "stability-flags": {
         "drupal/address": 10,
         "drupal/default_content": 15,
+        "drupal/file_entity": 20,
         "jcalderonzumba/gastonjs": 20
     },
     "prefer-stable": true,
